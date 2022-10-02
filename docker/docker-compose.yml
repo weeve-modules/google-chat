@@ -1,13 +1,15 @@
 version: "3.0"
 services:
-  boilerplate:
+  google-chat:
     build:
       context: ../
       dockerfile: docker/Dockerfile
     environment:
-      MODULE_NAME: "boilerplate"
+      MODULE_NAME: "google-chat"
       MODULE_TYPE: "Output"
       INGRESS_HOST: "0.0.0.0"
       INGRESS_PORT: "80"
+      WEBHOOK_URL: "https://chat.googleapis.com/v1/spaces/example"
+      MESSAGE_LABEL: "alertMessage"
     ports:
       - 80:80
