@@ -9,7 +9,7 @@ services:
       MODULE_TYPE: "Output"
       INGRESS_HOST: "0.0.0.0"
       INGRESS_PORT: "80"
-      WEBHOOK_URL: "https://chat.googleapis.com/v1/spaces/example"
+      WEBHOOK_URL: "https://chat.googleapis.com/v1/spaces/example-url"
       MESSAGE_LABEL: "alertMessage"
     ports:
       - 80:80
