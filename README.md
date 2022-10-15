@@ -7,6 +7,9 @@
 | DockerHub | [weevenetwork/google-chat](https://hub.docker.com/r/weevenetwork/google-chat) |
 | authors        | Jakub Grzelak                    |
 
+***
+## Table of Content
+
 - [Google Chat](#google-chat)
   - [Description](#description)
   - [Environment Variables](#environment-variables)
@@ -15,6 +18,7 @@
   - [Dependencies](#dependencies)
   - [Input](#input)
   - [Output](#output)
+***
 
 ## Description
 
